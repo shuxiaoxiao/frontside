@@ -1,0 +1,33 @@
+	
+===================(推荐使用jQuery1.8.3版本)===================
+
+2012年03月24日jQuery 1.7.2正式版发布。
+
+	该版本在1.7.1的基础上修复了大量的bug，并改进了部分功能。而相比于1.7.2 RC1，只修复了一个bug 。
+	值得注意的是：如果你正在使用jQuery Mobile，请使用最新的jQuery 1.7.2和jQuery Mobile 1.1这两个版本，因为之前的jQuery Mobile版本还基于jQuery core 1.7.1或更早的版本。
+
+2012年11月14日 jQuery 1.8.3 发布，修复 bug 和性能衰退问题
+IE8中的HTML相关Bug
+
+jQuery 1.8.2在IE9中调用ajax失败的问题
+
+jQuery 1.7.1不能正确地设置IE7中克隆元素的tabindex属性
+
+压缩的JS文件包含非ASCII字符
+
+如果body样式设置为display:none，则$('body').show()无法工作
+
+在IE9中element.css('filter')返回不明确
+
+在Android 2.3.4的浏览器中，jQuery 1.8.1转场效果崩溃
+
+在iPad上缩放一个灯箱效果后，所有动画效果失效
+
+从1.3.2升级到1.8.2版本后，出现Uncaught TypeError错误
+
+在Chrome和Safari中，无法正确检测包含可编辑内容的DIV的焦点
+
+2013年3月 jQuery 2.0 Beta 2 发布
+	据jQuery官方博客3月消息，jQuery 2.0 Beta 2 发布。
+	jQuery 团队在官博中再次提醒用户，jQuery 2.0 不再支持IE 6/7/8 了，但是 jQuery 1.9 会继续支持。因为旧版 IE 浏览器在整个互联网中还有很大部分市场，所以他们非常期望大部分网站能继续使用 jQuery 1.x 一段时间。jQuery 团队也将同时支持 jQuery 1.x 和 2.x 。
+	1.9 和 2.0 版的 API 是相同的，所以不必因为你们网站还在用 jQuery 1.9，就感觉好像错过了什么，或者是落后了。如果你想继续支持 IE 6/7/8，并且又想尝试 jQuery 2.0，那你可以额外加上一些代码。除了老版的 IE，其他所有浏览器都将使用第二脚本，忽略第一个。
