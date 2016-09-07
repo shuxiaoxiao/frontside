@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>一个jQuery程序</title>
+	<script type="text/javascript" src="../jquery-2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<input id="btn" type="button" value="button" />
+
+	<script type="text/javascript">
+	//加载的区别
+	/*
+	* $(document).ready(function(){}); 缩写为$(function(){});
+	* 
+	*/
+	
+	$(function(){
+		$('#btn').click(function(){
+			alert("btn click, 第一个jQuery程序");
+		});
+		
+	});
+	
+	</script>
+</body>
+</html>
